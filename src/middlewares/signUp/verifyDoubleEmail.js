@@ -1,5 +1,5 @@
-import {sanitize} from './utils/sanitize.js';
-import connection from '../database/databaseConnection.js';
+import {sanitize} from '../utils/sanitize.js';
+import connection from '../../database/databaseConnection.js';
 
 export default async function verifyDoubleEmail(req,res,next){
     const data = sanitize({...req.body});
