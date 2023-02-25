@@ -1,6 +1,6 @@
 import {sanitize} from '../utils/sanitize.js'
 
-export function authValidation(schema){
+export function schemaValidation(schema){
     return (req, res, next) =>{
         const data = sanitize({...req.body});
         const validation = schema.validate(data, {abortEarly: false});

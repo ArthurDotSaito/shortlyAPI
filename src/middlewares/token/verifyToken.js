@@ -6,9 +6,7 @@ export const verifyToken = async(req,res) => {
 
     try{
         const dbResponse = await connection.query("SELECT token FROM authtoken WHERE userId = $1", [id])
-        if(dbResponse.rowCount > 1){
-            return res.status(409).send("token já existe!")
-        }else if(dbResponse.rowCount !== 0){
+        if(dbResponse.rowCount !== 0){
             const {token} = dbResponse.rows[0];
             return res.send({token});
         }
