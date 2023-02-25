@@ -6,7 +6,7 @@ export function authValidation(schema){
         const validation = schema.validate(data, {abortEarly: false});
 
         if(validation.error){
-            const errorMessage = error.details.map(err => err.message).join(", ");
+            const errorMessage = validation.error.details.map(err => err.message).join(", ");
             return res.status(422).json({message: errorMessage});
         } 
         next();

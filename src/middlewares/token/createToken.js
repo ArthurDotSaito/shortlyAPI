@@ -1,9 +1,10 @@
 import {v4 as uuidV4} from 'uuid';
+import { sanitize } from '../utils/sanitize.js';
 import connection from '../../database/databaseConnection.js';
 
 export const createToken = async(req,res,next) => {
     const token = uuidV4();
-    const id = req.userId;
+    const id = sanitize(req.userId);
 
     try{
         await connection.query({
