@@ -150,6 +150,7 @@ INSERT INTO public.authtoken VALUES (3, 1, 'dc4290f0-492d-40fa-beb5-6322db1dcfc8
 INSERT INTO public.authtoken VALUES (4, 1, 'c9d0acf1-a287-4ff1-9863-b5da98c3a589', '2023-02-25 18:50:28.793433');
 INSERT INTO public.authtoken VALUES (5, 1, 'cba8d987-a937-4403-a8fc-48b14d1e0175', '2023-02-25 18:53:33.355221');
 INSERT INTO public.authtoken VALUES (6, 1, '9d368873-75c7-46a6-9e4b-6ed0d5426fe4', '2023-02-25 18:58:04.895932');
+INSERT INTO public.authtoken VALUES (7, 2, 'b3160654-b1bb-445e-b120-deab9a0fed1a', '2023-02-26 19:51:27.685473');
 
 
 --
@@ -159,7 +160,6 @@ INSERT INTO public.authtoken VALUES (6, 1, '9d368873-75c7-46a6-9e4b-6ed0d5426fe4
 INSERT INTO public.url VALUES (2, NULL, 'https://www.google.com/search?q=url+para+desencurtar&sxsrf=AJOqlzWww_TicokzWwi_njNuQL87jyTzHg%3A1677361622015&ei=1oH6Y5NTlL7k5Q_GmJEY&ved=0ahUKEwiTlo_90rH9AhUUH7kGHUZMBAMQ4dUDCA8&uact=5&oq=url+para+desencurtar&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIFCCEQoAEyBQghEKABMgUIIRCgATIFCCEQoAE6BAgjECc6EQguEIAEELEDEIMBEMcBENEDOggIABCxAxCDAToLCC4QgAQQxwEQ0QM6CwguEIAEELEDEIMBOgQIABBDOgUIABCABDoFCC4QgAQ6BggAEAoQQzoRCC4QgwEQxwEQsQMQ0QMQgAQ6BAgAEAM6CggAELEDEIMBEEM6CwgAEIAEELEDEIMBOggIABCABBCxAzoICAAQgAQQywE6BggAEBYQHjoJCAAQFhAeEPEEOgcIABCABBATOggIABAWEB4QCkoECEEYAFAAWKsXYLQYaABwAXgAgAGqAYgB1ROSAQQwLjE5mAEAoAEBwAEB&sclient=gws-wiz-serp', 'N53hXuX7J-1qp54mf2nT', 0, '2023-02-25 19:02:51.970345');
 INSERT INTO public.url VALUES (1, NULL, 'https://www.google.com/search?q=url+para+desencurtar&sxsrf=AJOqlzWww_TicokzWwi_njNuQL87jyTzHg%3A1677361622015&ei=1oH6Y5NTlL7k5Q_GmJEY&ved=0ahUKEwiTlo_90rH9AhUUH7kGHUZMBAMQ4dUDCA8&uact=5&oq=url+para+desencurtar&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIFCCEQoAEyBQghEKABMgUIIRCgATIFCCEQoAE6BAgjECc6EQguEIAEELEDEIMBEMcBENEDOggIABCxAxCDAToLCC4QgAQQxwEQ0QM6CwguEIAEELEDEIMBOgQIABBDOgUIABCABDoFCC4QgAQ6BggAEAoQQzoRCC4QgwEQxwEQsQMQ0QMQgAQ6BAgAEAM6CggAELEDEIMBEEM6CwgAEIAEELEDEIMBOggIABCABBCxAzoICAAQgAQQywE6BggAEBYQHjoJCAAQFhAeEPEEOgcIABCABBATOggIABAWEB4QCkoECEEYAFAAWKsXYLQYaABwAXgAgAGqAYgB1ROSAQQwLjE5mAEAoAEBwAEB&sclient=gws-wiz-serp', 'Ea_PhEfcKkaedQfXAupr', 2, '2023-02-25 19:02:11.786384');
 INSERT INTO public.url VALUES (3, 1, 'https://www.google.com/search?q=url+para+desencurtar&sxsrf=AJOqlzWww_TicokzWwi_njNuQL87jyTzHg%3A1677361622015&ei=1oH6Y5NTlL7k5Q_GmJEY&ved=0ahUKEwiTlo_90rH9AhUUH7kGHUZMBAMQ4dUDCA8&uact=5&oq=url+para+desencurtar&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIFCCEQoAEyBQghEKABMgUIIRCgATIFCCEQoAE6BAgjECc6EQguEIAEELEDEIMBEMcBENEDOggIABCxAxCDAToLCC4QgAQQxwEQ0QM6CwguEIAEELEDEIMBOgQIABBDOgUIABCABDoFCC4QgAQ6BggAEAoQQzoRCC4QgwEQxwEQsQMQ0QMQgAQ6BAgAEAM6CggAELEDEIMBEEM6CwgAEIAEELEDEIMBOggIABCABBCxAzoICAAQgAQQywE6BggAEBYQHjoJCAAQFhAeEPEEOgcIABCABBATOggIABAWEB4QCkoECEEYAFAAWKsXYLQYaABwAXgAgAGqAYgB1ROSAQQwLjE5mAEAoAEBwAEB&sclient=gws-wiz-serp', 'ZVpXBJ-pANCkhUotHlsT', 27, '2023-02-25 19:03:03.795387');
-INSERT INTO public.url VALUES (4, 1, 'https://www.google.com/search?q=url+para+desencurtar&sxsrf=AJOqlzWww_TicokzWwi_njNuQL87jyTzHg%3A1677361622015&ei=1oH6Y5NTlL7k5Q_GmJEY&ved=0ahUKEwiTlo_90rH9AhUUH7kGHUZMBAMQ4dUDCA8&uact=5&oq=url+para+desencurtar&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIFCCEQoAEyBQghEKABMgUIIRCgATIFCCEQoAE6BAgjECc6EQguEIAEELEDEIMBEMcBENEDOggIABCxAxCDAToLCC4QgAQQxwEQ0QM6CwguEIAEELEDEIMBOgQIABBDOgUIABCABDoFCC4QgAQ6BggAEAoQQzoRCC4QgwEQxwEQsQMQ0QMQgAQ6BAgAEAM6CggAELEDEIMBEEM6CwgAEIAEELEDEIMBOggIABCABBCxAzoICAAQgAQQywE6BggAEBYQHjoJCAAQFhAeEPEEOgcIABCABBATOggIABAWEB4QCkoECEEYAFAAWKsXYLQYaABwAXgAgAGqAYgB1ROSAQQwLjE5mAEAoAEBwAEB&sclient=gws-wiz-serp', 'b830KdnRNKW74BOFPixy', 8, '2023-02-25 19:03:49.406478');
 
 
 --
@@ -167,27 +167,28 @@ INSERT INTO public.url VALUES (4, 1, 'https://www.google.com/search?q=url+para+d
 --
 
 INSERT INTO public.users VALUES (1, 'João', 'joao2@driven.com.br', '$2b$10$zNUgf8XVi05mphnXt7vIruuLi/dJsQw9FIB9qAMaxxcux3UqYTVOq', '2023-02-25 16:17:14.920959');
+INSERT INTO public.users VALUES (2, 'Arthur', 'arthur@driven.com.br', '$2b$10$DahuUw5nk1VXr3qngfLaSurGIUzIGtcmPBPs5fvNFkja621ELrBFe', '2023-02-26 19:51:01.993403');
 
 
 --
 -- Name: authtoken_id_seq; Type: SEQUENCE SET; Schema: public; Owner: -
 --
 
-SELECT pg_catalog.setval('public.authtoken_id_seq', 6, true);
+SELECT pg_catalog.setval('public.authtoken_id_seq', 7, true);
 
 
 --
 -- Name: url_id_seq; Type: SEQUENCE SET; Schema: public; Owner: -
 --
 
-SELECT pg_catalog.setval('public.url_id_seq', 4, true);
+SELECT pg_catalog.setval('public.url_id_seq', 7, true);
 
 
 --
 -- Name: users_id_seq; Type: SEQUENCE SET; Schema: public; Owner: -
 --
 
-SELECT pg_catalog.setval('public.users_id_seq', 1, true);
+SELECT pg_catalog.setval('public.users_id_seq', 2, true);
 
 
 --

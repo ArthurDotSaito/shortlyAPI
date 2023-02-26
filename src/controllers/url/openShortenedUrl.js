@@ -1,9 +1,7 @@
 import connection from "../../database/databaseConnection.js";
 
 export const openShortenedUrl = async(req,res) =>{
-
     const {shortUrl} = req.params
-
 
     try {
         const dbResponse = await connection.query(
