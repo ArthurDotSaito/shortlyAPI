@@ -2,7 +2,6 @@ import connection from "../../database/databaseConnection.js";
 
 export const getShortenedUrl = async(req,res) =>{
     const {id} = req.params;
-    console.log(id)
 
     try{
         const dbResponse = await connection.query('SELECT id, shortURL as "shortUrl", originalURL as "url" FROM url WHERE id=$1',[id]);
